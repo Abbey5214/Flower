@@ -1,1 +1,989 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <script src="../JS/jquery.min.js"></script>
+    <script src="../JS/popper.min.js"></script>
+    <script src="../JS/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title></title>
+</head>
+<body>
+<!--header-->
+<header>
+    <!--顶端-->
+    <div id="top">
+        <!--顶端 左右-->
+        <div  class="top01">
+            <div class="top02" >
+                <div class="left top_left">
+                    <a href="" class="left">收藏有惊喜</a>
+                    <a href="">关注微信</a>
+                </div>
+                <div class="right top_right">
+                    <a href="#" class="right">
+                        <img src="" alt="" class="icon icon_shopCar"> 购物车
+                    </a>
+                    <a href="#" class="right">
+                        <img src="" alt="" class="icon icon_myService"> 联系客服
+                    </a>
+                    <a href="#" class="right">
+                        <img src="" alt="" class="icon icon_myCollect"> 我的收藏
+                    </a>
+                    <a href="#" class="right">
+                        <img src="" alt="" class="icon icon_myFlower"> 我的好花
+                    </a>
+                    <a href="#" class="right">
+                        <img src="" alt="" class="icon icon_login"> 登录/注册
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--头 header -->
+        <div class="header01">
+            <div class="header">
+                <div class="head01 left">
+                    <div class="logo left">
+                        <a href="#"><img src="image/logo.png" alt=""></a>
+                    </div>
+                    <div class="input left">
+                        <form action="">
+                            <div class="inputBorder">
+                                <input type="text" class="inputText" placeholder="请输入关键词搜索">
+                                <button class="inputButton" >
+                                    <i class="icon icon_search"></i>
+                                </button>
+                            </div>
+                        </form>
+                        <div class="search-item">
+                            <span>热搜：</span>
+                            <a href="#">红玫瑰</a>
+                            <a href="#">永生花</a>
+                            <a href="#">生日鲜花</a>
+                            <a href="#">康乃馨</a>
+                            <a href="#">每周一花</a>
+                        </div>
+                    </div>
+                    <div class="phone left">
+                        <div class="left">
+                            <i class="icon icon_tel"></i>
+                        </div>
+                        <div class="left">
+                            <lable>400-888-7502</lable>
+                            <p>咨询热线</p>
+                        </div>
+                    </div>
+                    <a href="" class="service">
+                        <i class="icon servicePic"></i>
+                        在线客服
+                    </a>
+                </div>
+                <!--banner-->
+                <div class="nav">
+                    <div class="banner_nav">
+                        <dl>
+                            <dt class="left">
+                                <div class="dt"><a href="">全部商品导航</a></div>
+                                <div class="menu">
+                                    <div class="menu_item menu_item1">
+                                        <div class="item-title"> 鲜花用途</div>
+                                        <ul>
+                                            <li><a href="#">爱情鲜花</a></li>
+                                            <li><a href="#">生日鲜花</a></li>
+                                            <li><a href="#">友情鲜花</a></li>
+                                            <li><a href="#">周年纪念</a></li>
+                                            <li><a href="#">婚庆鲜花</a></li>
+                                            <li><a href="#">祝贺鲜花</a></li>
+                                            <li><a href="#">探病慰问</a></li>
+                                            <li><a href="#">问候长辈</a></li>
+                                            <li><a href="#">商务鲜花</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu_item menu_item2">
+                                        <div class="item-title"> 鲜花花材</div>
+                                        <ul>
+                                            <li><a href="#">玫瑰花</a></li>
+                                            <li><a href="#">康乃馨</a></li>
+                                            <li><a href="#">百合花</a></li>
+                                            <li><a href="#">向日葵</a></li>
+                                            <li><a href="#">紫罗兰</a></li>
+                                            <li><a href="#">满天星</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu_item menu_item3">
+                                        <div class="item-title">鲜花类别</div>
+                                        <ul>
+                                            <li><a href="#">日常花束</a></li>
+                                            <li><a href="#">创意花盒</a></li>
+                                            <li><a href="#">韩式花束</a></li>
+                                            <li><a href="#">手提花篮</a></li>
+                                            <li><a href="#">开业花篮</a></li>
+                                            <li><a href="#">会议桌花</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu_p1">
+                                        <div class="menu_item menu_item4">
+                                            <div class="item-title">永生花 > </div>
+                                            <ul>
+                                                <li><a href="#">经典花盒</a></li>
+                                                <li><a href="#">巨型玫瑰</a></li>
+                                                <li><a href="#">薰衣草</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="content1">
+                                            <ul>
+                                                <li>
+                                                    <img src="image/sp01.jpg" alt="">
+                                                    <p>经典花盒</p>
+                                                </li>
+                                                <li>
+                                                    <img src="image/sp02.jpg" alt="">
+                                                    <p>巨型玫瑰</p>
+                                                </li>
+                                                <li>
+                                                    <img src="image/sp03.jpg" alt="">
+                                                    <p>薰衣草</p>
+                                                </li>
+                                                <li>
+                                                    <img src="image/sp04.jpg" alt="">
+                                                    <p>永生瓶花</p>
+                                                </li>
+                                                <li>
+                                                    <img src="image/sp05.jpg" alt="">
+                                                    <p>特色永生花</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu_p2">
+                                        <div class="menu_item menu_item5">
+                                            <div class="item-title">礼品/公仔/绿植> </div>
+                                        </div>
+                                        <div class="content2"></div>
+                                    </div>
+                                </div>
+                            </dt>
+                            <dd class="left"><a href="">首页</a></dd>
+                            <dd class="left"><a href="">鲜花</a></dd>
+                            <dd class="left"><a href="">花篮</a></dd>
+                            <dd class="left"><a href="">永生花</a></dd>
+                            <dd class="left"><a href="">礼品</a></dd>
+                            <dd class="left"><a href="">每周一花</a></dd>
+                            <dd class="left"><a href="">花语</a></dd>
+                            <dd class="left"><a href="">品牌保障</a></dd>
+                        </dl>
+                    </div>
+                </div>
+        </div>
+        </div>
+    </div>
+</header>
+<!--body-->
+<body>
+    <div class="banner"><!--宽高居中-->
+        <!--两个部分：图片，定点-->
+            <!--四张banner图-->
+            <div class="banner_bgimg">
+                <div><img src="image/banner1.jpg" alt=""></div>
+                <div><img src="image/banner2.jpg" alt=""></div>
+                <div><img src="image/banner3.jpg" alt=""></div>
+                <div><img src="image/banner4.jpg" alt=""></div>
+            </div>
+            <!--四张定点小图-->
+            <div class="banner_smimg" >
+                <div><img src="image/smallBanner1.jpg" alt=""></div>
+                <div><img src="image/smallBanner2.jpg" alt=""></div>
+                <div><img src="image/smallBanner3.jpg" alt=""></div>
+                <div><img src="image/smallBanner4.jpg" alt=""></div>
+            </div>
+    </div>
+    <!--鲜花电商龙头-->
+    <div class="body02">
+        <div class="body_nav">
+            <ul>
+                <li>
+                    <div class="pic"><i class="icon nav_icon1"></i></div>
+                    <div class="txt">
+                        <p>鲜花电商龙头</p>
+                        <span>10年打造，鲜花电商龙头企业</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="pic"><i class="icon nav_icon2"></i></div>
+                    <div class="txt">
+                        <p>鲜花实拍秀展示</p>
+                        <span>展现送共前实拍的鲜花网</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="pic"><i class="icon nav_icon3"></i></div>
+                    <div class="txt">
+                        <p>3小时送花</p>
+                        <span>全国连锁花店，3小时送100城市</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="pic"><i class="icon nav_icon4"></i></div>
+                    <div class="txt">
+                        <p>200%退赔承诺</p>
+                        <span>鲜花预订可靠的售后保障</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--限时抢购-->
+    <div class="sale">
+        <div class="sale_h60">
+        </div>
+        <div class="sale_01">
+            <ul>
+                <li class="sale_left">
+                    <p>每天上午10：00刷新 <br> 今日抢购商品</p>
+                </li>
+                <li class="sale_item">
+                    <a href="#">
+                        <div class="bq">
+                            <span>爆款</span>
+                        </div>
+                        <div class="sale_img">
+                            <img src="image/2f1ab_b66e.png" alt="">
+                        </div>
+                        <div class="sale_font">
+                            <h5>Full love浓情鲜花系列19枝苏醒玫瑰+2枝粉色桔梗</h5>
+                            <h6>玫瑰花 </h6>
+                            <p class="price">
+                                ￥
+                                <span>188.00</span>
+                                <label>
+                                    直降 ¥
+                                    <span>110.00</span>
+                                </label>
 
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="sale_item">
+                    <a href="#">
+                        <div class="bq">
+                            <span>热销</span>
+                        </div>
+                        <div class="sale_img">
+                            <img src="image/2d318_10d60.png" alt="">
+                        </div>
+                        <div class="sale_font">
+                            <h5>Full love浓情鲜花系列33枝红玫瑰+梦幻黑纱</h5>
+                            <h6>玫瑰花 </h6>
+                            <p class="price">
+                                ￥
+                                <span>268.00</span>
+                                <label>
+                                    直降 ¥
+                                    <span>230.00</span>
+                                </label>
+
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="sale_item">
+                    <a href="#">
+                        <div class="bq">
+                            <span>推荐</span>
+                        </div>
+                        <div class="sale_img">
+                            <img src="image/2c82d_1017a.png" alt="">
+                        </div>
+                        <div class="sale_font">
+                            <h5>Cherish珍爱鲜花系列33枝戴安娜+尤加利叶</h5>
+                            <h6>玫瑰花 </h6>
+                            <p class="price">
+                                ￥
+                                <span>368.00</span>
+                                <label>
+                                    直降 ¥
+                                    <span>120.00</span>
+                                </label>
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="sale_item">
+                    <a href="#">
+                        <div class="bq">
+                            <span>爆款</span>
+                        </div>
+                        <div class="sale_img">
+                            <img src="image/2c77b_c31a.png" alt="">
+                        </div>
+                        <div class="sale_font">
+                            <h5>Cherish珍爱鲜花系列99枝紫玫瑰梦影（需提前一天预订）</h5>
+                            <h6>玫瑰花 </h6>
+                            <p class="price">
+                                ￥
+                                <span>598.00</span>
+                                <label>
+                                    直降 ¥
+                                    <span>100.00</span>
+                                </label>
+                            </p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--1F-->
+    <div class="floor" id="f1">
+        <div class="floor_h50"></div>
+        <div class="floor_all">
+            <div class="floor_top">
+                <h3>
+                    <a href="">韩式鲜花</a>
+                    <span>意·爱的简约而不简单</span>
+                </h3>
+            </div>
+            <div class="floor_body">
+                <div class="fb_left">
+                    <a href="#" class="fbl_top">
+                        <div><img src="image/ib200.jpg" alt=""></div>
+                        <h5>韩式鲜花专区</h5>
+                        <p>进入专区</p>
+                    </a>
+                </div>
+                <div class="fb_right">
+                    <ul>
+                        <li>
+                            <a href="#" class="fb_lia">
+                                <div class="fb_img" >
+                                    <img src="image/2f2c4_df9e.png" alt="">
+                                </div>
+                                <h5>Cherish珍爱鲜花系列戴安娜粉玫瑰99枝+栀子叶</h5>
+                                <p class="fb_price">
+                                    <span>￥</span>
+                                    458.00
+                                    <span class="fb_sale">5.2折</span>
+                                    <label for="">已售 2154 件</label>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="fb_lia">
+                                <div class="fb_img" >
+                                    <img src="image/2f2c4_df9e.png" alt="">
+                                </div>
+                                <h5>Cherish珍爱鲜花系列戴安娜粉玫瑰99枝+栀子叶</h5>
+                                <p class="fb_price">
+                                    <span>￥</span>
+                                    458.00
+                                    <span class="fb_sale">5.2折</span>
+                                    <label for="">已售 2154 件</label>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="fb_lia">
+                                <div class="fb_img" >
+                                    <img src="image/2f2c4_df9e.png" alt="">
+                                </div>
+                                <h5>Cherish珍爱鲜花系列戴安娜粉玫瑰99枝+栀子叶</h5>
+                                <p class="fb_price">
+                                    <span>￥</span>
+                                    458.00
+                                    <span class="fb_sale">5.2折</span>
+                                    <label for="">已售 2154 件</label>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="fb_lia">
+                                <div class="fb_img" >
+                                    <img src="image/2f2c4_df9e.png" alt="">
+                                </div>
+                                <h5>Cherish珍爱鲜花系列戴安娜粉玫瑰99枝+栀子叶</h5>
+                                <p class="fb_price">
+                                    <span>￥</span>
+                                    458.00
+                                    <span class="fb_sale">5.2折</span>
+                                    <label for="">已售 2154 件</label>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="fb_lia">
+                                <div class="fb_img" >
+                                    <img src="image/2f2c4_df9e.png" alt="">
+                                </div>
+                                <h5>Cherish珍爱鲜花系列戴安娜粉玫瑰99枝+栀子叶</h5>
+                                <p class="fb_price">
+                                    <span>￥</span>
+                                    458.00
+                                    <span class="fb_sale">5.2折</span>
+                                    <label for="">已售 2154 件</label>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="fb_lia">
+                                <div class="fb_img" >
+                                    <img src="image/2f2c4_df9e.png" alt="">
+                                </div>
+                                <h5>Cherish珍爱鲜花系列戴安娜粉玫瑰99枝+栀子叶</h5>
+                                <p class="fb_price">
+                                    <span>￥</span>
+                                    458.00
+                                    <span class="fb_sale">5.2折</span>
+                                    <label for="">已售 2154 件</label>
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--2F-->
+    <div class="floor" id="f1">
+        <div class="floor_h50"></div>
+        <div class="floor_all">
+            <div class="floor_top">
+                <h3>
+                    <a href="">韩式鲜花</a>
+                    <span>意·爱的简约而不简单</span>
+                </h3>
+            </div>
+            <div class="floor_body">
+                <div class="fb_left">
+                    <a href="#" class="fbl_top">
+                        <div><img src="image/ib200.jpg" alt=""></div>
+                        <h5>韩式鲜花专区</h5>
+                        <p>进入专区</p>
+                    </a>
+                </div>
+                <div class="fb_right">
+                    <ul>
+                        <li>
+                            <a href="#" class="fb_lia">
+                                <div class="fb_img" >
+                                    <img src="image/2f2c4_df9e.png" alt="">
+                                </div>
+                                <h5>Cherish珍爱鲜花系列戴安娜粉玫瑰99枝+栀子叶</h5>
+                                <p class="fb_price">
+                                    <span>￥</span>
+                                    458.00
+                                    <span class="fb_sale">5.2折</span>
+                                    <label for="">已售 2154 件</label>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="fb_lia">
+                                <div class="fb_img" >
+                                    <img src="image/2f2c4_df9e.png" alt="">
+                                </div>
+                                <h5>Cherish珍爱鲜花系列戴安娜粉玫瑰99枝+栀子叶</h5>
+                                <p class="fb_price">
+                                    <span>￥</span>
+                                    458.00
+                                    <span class="fb_sale">5.2折</span>
+                                    <label for="">已售 2154 件</label>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="fb_lia">
+                                <div class="fb_img" >
+                                    <img src="image/2f2c4_df9e.png" alt="">
+                                </div>
+                                <h5>Cherish珍爱鲜花系列戴安娜粉玫瑰99枝+栀子叶</h5>
+                                <p class="fb_price">
+                                    <span>￥</span>
+                                    458.00
+                                    <span class="fb_sale">5.2折</span>
+                                    <label for="">已售 2154 件</label>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="fb_lia">
+                                <div class="fb_img" >
+                                    <img src="image/2f2c4_df9e.png" alt="">
+                                </div>
+                                <h5>Cherish珍爱鲜花系列戴安娜粉玫瑰99枝+栀子叶</h5>
+                                <p class="fb_price">
+                                    <span>￥</span>
+                                    458.00
+                                    <span class="fb_sale">5.2折</span>
+                                    <label for="">已售 2154 件</label>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="fb_lia">
+                                <div class="fb_img" >
+                                    <img src="image/2f2c4_df9e.png" alt="">
+                                </div>
+                                <h5>Cherish珍爱鲜花系列戴安娜粉玫瑰99枝+栀子叶</h5>
+                                <p class="fb_price">
+                                    <span>￥</span>
+                                    458.00
+                                    <span class="fb_sale">5.2折</span>
+                                    <label for="">已售 2154 件</label>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="fb_lia">
+                                <div class="fb_img" >
+                                    <img src="image/2f2c4_df9e.png" alt="">
+                                </div>
+                                <h5>Cherish珍爱鲜花系列戴安娜粉玫瑰99枝+栀子叶</h5>
+                                <p class="fb_price">
+                                    <span>￥</span>
+                                    458.00
+                                    <span class="fb_sale">5.2折</span>
+                                    <label for="">已售 2154 件</label>
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--img-->
+    <div class="banner_img">
+            <a href="">
+                <img src="image/banner01.png" alt="">
+            </a>
+    </div>
+    <!--3F-->
+    <div class="floor" id="f1">
+        <div class="floor_h50"></div>
+        <div class="floor_all">
+            <div class="floor_top">
+                <h3>
+                    <a href="">韩式鲜花</a>
+                    <span>意·爱的简约而不简单</span>
+                </h3>
+            </div>
+            <div class="floor_body">
+                <div class="fb_left">
+                    <a href="#" class="fbl_top">
+                        <div><img src="image/ib200.jpg" alt=""></div>
+                        <h5>韩式鲜花专区</h5>
+                        <p>进入专区</p>
+                    </a>
+                </div>
+                <div class="fb_right">
+                    <ul>
+                        <li>
+                            <a href="#" class="fb_lia">
+                                <div class="fb_img" >
+                                    <img src="image/2f2c4_df9e.png" alt="">
+                                </div>
+                                <h5>Cherish珍爱鲜花系列戴安娜粉玫瑰99枝+栀子叶</h5>
+                                <p class="fb_price">
+                                    <span>￥</span>
+                                    458.00
+                                    <span class="fb_sale">5.2折</span>
+                                    <label for="">已售 2154 件</label>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="fb_lia">
+                                <div class="fb_img" >
+                                    <img src="image/2f2c4_df9e.png" alt="">
+                                </div>
+                                <h5>Cherish珍爱鲜花系列戴安娜粉玫瑰99枝+栀子叶</h5>
+                                <p class="fb_price">
+                                    <span>￥</span>
+                                    458.00
+                                    <span class="fb_sale">5.2折</span>
+                                    <label for="">已售 2154 件</label>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="fb_lia">
+                                <div class="fb_img" >
+                                    <img src="image/2f2c4_df9e.png" alt="">
+                                </div>
+                                <h5>Cherish珍爱鲜花系列戴安娜粉玫瑰99枝+栀子叶</h5>
+                                <p class="fb_price">
+                                    <span>￥</span>
+                                    458.00
+                                    <span class="fb_sale">5.2折</span>
+                                    <label for="">已售 2154 件</label>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="fb_lia">
+                                <div class="fb_img" >
+                                    <img src="image/2f2c4_df9e.png" alt="">
+                                </div>
+                                <h5>Cherish珍爱鲜花系列戴安娜粉玫瑰99枝+栀子叶</h5>
+                                <p class="fb_price">
+                                    <span>￥</span>
+                                    458.00
+                                    <span class="fb_sale">5.2折</span>
+                                    <label for="">已售 2154 件</label>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="fb_lia">
+                                <div class="fb_img" >
+                                    <img src="image/2f2c4_df9e.png" alt="">
+                                </div>
+                                <h5>Cherish珍爱鲜花系列戴安娜粉玫瑰99枝+栀子叶</h5>
+                                <p class="fb_price">
+                                    <span>￥</span>
+                                    458.00
+                                    <span class="fb_sale">5.2折</span>
+                                    <label for="">已售 2154 件</label>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="fb_lia">
+                                <div class="fb_img" >
+                                    <img src="image/2f2c4_df9e.png" alt="">
+                                </div>
+                                <h5>Cherish珍爱鲜花系列戴安娜粉玫瑰99枝+栀子叶</h5>
+                                <p class="fb_price">
+                                    <span>￥</span>
+                                    458.00
+                                    <span class="fb_sale">5.2折</span>
+                                    <label for="">已售 2154 件</label>
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--4F-->
+    <div class="floor" id="f1">
+        <div class="floor_h50"></div>
+        <div class="floor_all">
+            <div class="floor_top">
+                <h3>
+                    <a href="">韩式鲜花</a>
+                    <span>意·爱的简约而不简单</span>
+                </h3>
+            </div>
+            <div class="floor_body">
+                <div class="fb_left">
+                    <a href="#" class="fbl_top">
+                        <div><img src="image/ib200.jpg" alt=""></div>
+                        <h5>韩式鲜花专区</h5>
+                        <p>进入专区</p>
+                    </a>
+                </div>
+                <div class="fb_right">
+                    <ul>
+                        <li>
+                            <a href="#" class="fb_lia">
+                                <div class="fb_img" >
+                                    <img src="image/2f2c4_df9e.png" alt="">
+                                </div>
+                                <h5>Cherish珍爱鲜花系列戴安娜粉玫瑰99枝+栀子叶</h5>
+                                <p class="fb_price">
+                                    <span>￥</span>
+                                    458.00
+                                    <span class="fb_sale">5.2折</span>
+                                    <label for="">已售 2154 件</label>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="fb_lia">
+                                <div class="fb_img" >
+                                    <img src="image/2f2c4_df9e.png" alt="">
+                                </div>
+                                <h5>Cherish珍爱鲜花系列戴安娜粉玫瑰99枝+栀子叶</h5>
+                                <p class="fb_price">
+                                    <span>￥</span>
+                                    458.00
+                                    <span class="fb_sale">5.2折</span>
+                                    <label for="">已售 2154 件</label>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="fb_lia">
+                                <div class="fb_img" >
+                                    <img src="image/2f2c4_df9e.png" alt="">
+                                </div>
+                                <h5>Cherish珍爱鲜花系列戴安娜粉玫瑰99枝+栀子叶</h5>
+                                <p class="fb_price">
+                                    <span>￥</span>
+                                    458.00
+                                    <span class="fb_sale">5.2折</span>
+                                    <label for="">已售 2154 件</label>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="fb_lia">
+                                <div class="fb_img" >
+                                    <img src="image/2f2c4_df9e.png" alt="">
+                                </div>
+                                <h5>Cherish珍爱鲜花系列戴安娜粉玫瑰99枝+栀子叶</h5>
+                                <p class="fb_price">
+                                    <span>￥</span>
+                                    458.00
+                                    <span class="fb_sale">5.2折</span>
+                                    <label for="">已售 2154 件</label>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="fb_lia">
+                                <div class="fb_img" >
+                                    <img src="image/2f2c4_df9e.png" alt="">
+                                </div>
+                                <h5>Cherish珍爱鲜花系列戴安娜粉玫瑰99枝+栀子叶</h5>
+                                <p class="fb_price">
+                                    <span>￥</span>
+                                    458.00
+                                    <span class="fb_sale">5.2折</span>
+                                    <label for="">已售 2154 件</label>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="fb_lia">
+                                <div class="fb_img" >
+                                    <img src="image/2f2c4_df9e.png" alt="">
+                                </div>
+                                <h5>Cherish珍爱鲜花系列戴安娜粉玫瑰99枝+栀子叶</h5>
+                                <p class="fb_price">
+                                    <span>￥</span>
+                                    458.00
+                                    <span class="fb_sale">5.2折</span>
+                                    <label for="">已售 2154 件</label>
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--每周一花-->
+    <div class="weeklyFlower">
+        <ul>
+            <li class="wf01">
+                <a href="">
+                    <h5>每周一花</h5>
+                    <div>每周一个惊喜，装扮美 好生活。</div>
+                    <p>查看更多</p>
+                </a>
+            </li>
+            <li class="wf wf02">
+                <a href="">
+                    <div><img src="image/2a87d_2fbd.jpg" alt=""></div>
+                    <h5>Nature自然系列轻奢单品</h5>
+                    <p>精选1种花材（每周一束/包月）</p>
+                    <p class="wf_price"><span>￥</span>148.00</p>
+                </a>
+            </li>
+            <li class="wf wf03">
+                <a href="">
+                    <div><img src="image/203b7_ce14.jpg" alt=""></div>
+                    <h5>Nature自然系列重奢双拼</h5>
+                    <p>单品 & 双拼交替发花（每周一束/包月）</p>
+                    <p class="wf_price"><span>￥</span>238.00</p>
+                </a>
+            </li>
+            <li class="wf wf04">
+                <a href="">
+                    <div><img src="image/22d42_cda8.jpg" alt=""></div>
+                    <h5>Nature自然系列重奢极品</h5>
+                    <p>精选5~8种进口花材（每周一束/包月）</p>
+                    <p class="wf_price"><span>￥</span>298.00</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!--方格式菜单-->
+    <div class="body_bottom">
+        <div class="bb_01">
+            <div class="bb_small bb01">
+                <a href="">
+                    <h5>鲜花人气榜单</h5>
+                    <p>Fresh flower Ranking List</p>
+                    <p>时尚潮流一手掌握</p>
+                </a>
+            </div>
+            <div class="bb_small bb02">
+                <a href="#">
+                    <div><img src="image/2ace8_560e.png" alt=""></div>
+                    <p>Cherish珍爱鲜花系列99朵玫瑰</p>
+                    <p class="price">
+                        ￥
+                        <span>398.00</span>
+                    </p>
+                </a>
+            </div>
+            <div class="bb_big bb03" >
+                <a href="">
+                    <h5>珍爱一生</h5>
+                    <p>Love Her Forever</p>
+                    <p class="love">永生玫瑰，真爱永恒</p>
+                </a>
+            </div>
+        </div>
+        <div class="bb_02">
+            <a href="">
+                <h1>四季热卖</h1>
+                <p class="bb_021">-25%</p>
+                <p class="bb_022">进入卖场</p>
+            </a>
+        </div>
+        <div class="bb_03">
+            <div class="bb_small bb05">
+                <a href="#">
+                    <h5>居家必备鲜花</h5>
+                    <p>装点美好生活</p>
+                </a>
+            </div>
+            <div class="bb_small bb02 bb06">
+                <a href="#">
+                    <div><img src="image/2ace8_560e.png" alt=""></div>
+                    <p>Cherish珍爱鲜花系列99朵玫瑰</p>
+                    <p class="price">
+                        ￥
+                        <span>168.00</span>
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="h_50"></div>
+</body>
+<!--footer-->
+<footer>
+    <div id="foot">
+            <div class="foot_top">
+                <ul>
+                    <li>
+                        <i class="icon ft_01"></i>
+                        <a href="">销量领先</a>
+                    </li>
+                    <li>
+                        <i class="icon ft_02"></i>
+                        <a href="">百万客户信赖</a>
+                    </li>
+                    <li>
+                        <i class="icon ft_03"></i>
+                        <a href="">时尚原创花艺</a>
+                    </li>
+                    <li>
+                        <i class="icon ft_04"></i>
+                        <a href="">订单实拍</a>
+                    </li>
+                    <li>
+                        <i class="icon ft_05"></i>
+                        <a href="">低价保障</a>
+                    </li>
+                    <li>
+                        <i class="icon ft_06"></i>
+                        <a href="">3小时配送</a>
+                    </li>
+                    <li>
+                        <i class="icon ft_07"></i>
+                        <a href="">200%退赔承诺</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="foot_body">
+                <div class="ft_h60"></div>
+                <div class="fb_01">
+                    <h5>客户服务</h5>
+                    <dl>
+                        <dt>售后服务</dt>
+                        <dd><a href="">配送说明</a></dd>
+                        <dd><a href="">配送范围</a></dd>
+                        <dd><a href="">订单查询</a></dd>
+                        <dd><a href="">取消订单</a></dd>
+                        <dd><a href="">补交货款</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>服务条款</dt>
+                        <dd><a href="">关于我们</a></dd>
+                        <dd><a href="">隐私条款</a></dd>
+                        <dd><a href="">安全条款</a></dd>
+                        <dd><a href="">支付说明</a></dd>
+                    </dl>
+                    <dl class="fb_w150">
+                        <dt>热门资讯</dt>
+                        <dd><a href="">Flower网购流程</a></dd>
+                        <dd><a href="">能配送哪些城市</a></dd>
+                        <dd><a href="">售后服务是怎么样的</a></dd>
+                        <dd><a href="">提前多久预定鲜花</a></dd>
+                    </dl>
+                </div>
+                <div class="fb_02">
+                    <h5>同城鲜花</h5>
+                    <ul>
+                        <li><a href="">北京市鲜花</a></li>
+                        <li><a href="">天津市鲜花</a></li>
+                        <li><a href="">河北市鲜花</a></li>
+                        <li><a href="">山西市鲜花</a></li>
+                        <li><a href="">内蒙省鲜花</a></li>
+                        <li><a href="">吉林省鲜花</a></li>
+                        <li><a href="">黑龙江鲜花</a></li>
+                        <li><a href="">上海市鲜花</a></li>
+                        <li><a href="">江苏省鲜花</a></li>
+                        <li><a href="">浙江省鲜花</a></li>
+                        <li><a href="">安徽省鲜花</a></li>
+                        <li><a href="">福建省鲜花</a></li>
+                        <li><a href="">江西省鲜花</a></li>
+                        <li><a href="">山东省鲜花</a></li>
+                        <li><a href="">河南省鲜花</a></li>
+                        <li><a href="">湖北省鲜花</a></li>
+                        <li><a href="">广东省鲜花</a></li>
+                        <li><a href="">更多城市</a></li>
+                    </ul>
+                </div>
+                <div class="fb_03">
+                    <h5>联系我们</h5>
+                    <p  class="fb_phone">
+                        全国订购电话:
+                        <span>400-888-7502</span>
+                    </p>
+                    <div class="cservice">
+                        <a href=""><img src="image/cservice.png" alt=""></a>
+                    </div>
+                    <p class="service_time">客服工作时间：8:30-21:00</p>
+                    <p class="service_time">售后服务电话：13378216662</p>
+                </div>
+                <div class="fb_04">
+                    <p class="note">回复“礼物”有惊喜！</p>
+                    <p class="qr_code"><img src="image/qrcode.png" alt=""></p>
+                    <p class="fb04_a">公众号</p>
+                </div>
+            </div>
+            <div class="foot_bottom">
+                <p>Flower&Love&nbsp;公司荣誉出品&nbsp;&nbsp;陌上花开，可缓缓归矣&nbsp;&nbsp;  蜀ICP备18023296号-1</p>
+                <ul>
+                    <li class="img01"><a href=""></a></li>
+                    <li class="img02"><a href=""></a></li>
+                    <li class="img03"><a href=""></a></li>
+                </ul>
+            </div>
+        </div>
+</footer>
+</body>
+</html>
