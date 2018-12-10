@@ -1,0 +1,983 @@
+c<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <script src="../JS/jquery.min.js"></script>
+    <script src="../JS/popper.min.js"></script>
+    <script src="../JS/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/product_list.css">
+    <title>产品列表</title>
+</head>
+<body>
+<!--顶端-->
+<header>
+    <div id="top">
+        <!--顶端 左右-->
+        <div  class="top01">
+            <div class="top02" >
+                <div class="left top_left">
+                    <a href="" class="left">收藏有惊喜</a>
+                    <a href="">关注微信</a>
+                </div>
+                <div class="right top_right">
+                    <a href="#" class="right">
+                        <img src="" alt="" class="icon icon_shopCar"> 购物车
+                    </a>
+                    <a href="#" class="right">
+                        <img src="" alt="" class="icon icon_myService"> 联系客服
+                    </a>
+                    <a href="#" class="right">
+                        <img src="" alt="" class="icon icon_myCollect"> 我的收藏
+                    </a>
+                    <a href="#" class="right">
+                        <img src="" alt="" class="icon icon_myFlower"> 我的好花
+                    </a>
+                    <a href="#" class="right">
+                        <img src="" alt="" class="icon icon_login"> 登录/注册
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--头 header -->
+        <div class="header01">
+            <div class="header">
+                <div class="head01 left">
+                    <div class="logo left">
+                        <a href="#"><img src="image/logo.png" alt=""></a>
+                    </div>
+                    <div class="input left">
+                        <form action="">
+                            <div class="inputBorder">
+                                <input type="text" class="inputText" placeholder="请输入关键词搜索">
+                                <button class="inputButton" >
+                                    <i class="icon icon_search"></i>
+                                </button>
+                            </div>
+                        </form>
+                        <div class="search-item">
+                            <span>热搜：</span>
+                            <a href="#">红玫瑰</a>
+                            <a href="#">永生花</a>
+                            <a href="#">生日鲜花</a>
+                            <a href="#">康乃馨</a>
+                            <a href="#">每周一花</a>
+                        </div>
+                    </div>
+                    <div class="phone left">
+                        <div class="left">
+                            <i class="icon icon_tel"></i>
+                        </div>
+                        <div class="left">
+                            <lable>400-888-7502</lable>
+                            <p>咨询热线</p>
+                        </div>
+                    </div>
+                    <a href="" class="service">
+                        <i class="icon servicePic"></i>
+                        在线客服
+                    </a>
+                </div>
+                <!--banner-->
+                <div class="nav">
+                    <div class="banner_nav">
+                        <dl>
+                            <dt class="left">
+                                <div class="dt"><a href="">全部商品导航</a></div>
+                                <div class="menu">
+
+                                </div>
+                            </dt>
+                            <dd class="left"><a href="">首页</a></dd>
+                            <dd class="left"><a href="">鲜花</a></dd>
+                            <dd class="left"><a href="">花篮</a></dd>
+                            <dd class="left"><a href="">永生花</a></dd>
+                            <dd class="left"><a href="">礼品</a></dd>
+                            <dd class="left"><a href="">每周一花</a></dd>
+                            <dd class="left"><a href="">花语</a></dd>
+                            <dd class="left"><a href="">品牌保障</a></dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<body>
+    <div class="body_nav">
+        <a href="#">好花首页</a>
+        <span>></span>
+        <a href="#">鲜花</a>
+        <span>></span>
+        <a href="#">列表</a>
+    </div>
+    <div class="list_body">
+        <div class="wl277">
+            <div class="leftBox1 bg_color">
+                <div class="leftBox1_title">
+                    <p>鲜花适合对象</p>
+                </div>
+                <div class="leftBox1_item">
+                    <ul class="leftBox1_item_ul">
+                        <li><a href="#">送恋人</a></li>
+                        <li><a href="#">送朋友</a></li>
+                        <li><a href="#">送亲人</a></li>
+                        <li><a href="#">送老师</a></li>
+                        <li><a href="#">送长辈</a></li>
+                        <li><a href="#">送客户</a></li>
+                        <li><a href="#">送病人</a></li>
+                        <li><a href="#">送花篮</a></li>
+                        <li><a href="#">送桌花</a></li>
+                    </ul>
+                </div>
+                <div class="h10"></div>
+                <div class="clear"></div>
+            </div>
+            <div class="leftBox2">
+                <a href="#"><img src="image/t1.jpg" alt=""></a>
+            </div>
+            <div class="leftBox3 bg_color">
+                <div class="leftBox1_title">
+                    <p>热销鲜花</p>
+                </div>
+                <div class="leftBox3_item">
+                    <ul>
+                        <li class="item">
+                            <a href="">
+                                <div class="item_img">
+                                    <img src="image/2ace8_560e.png" alt="">
+                                </div>
+                                <div class="item_price">
+                                    <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                                    <div>
+                                        <span>¥</span>
+                                        398.0
+                                        <label for="">已售 4197 件</label>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="item_img">
+                                    <img src="image/2ace8_560e.png" alt="">
+                                </div>
+                                <div class="item_price">
+                                    <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                                    <div>
+                                        <span>¥</span>
+                                        398.0
+                                        <label for="">已售 4197 件</label>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="item_img">
+                                    <img src="image/2ace8_560e.png" alt="">
+                                </div>
+                                <div class="item_price">
+                                    <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                                    <div>
+                                        <span>¥</span>
+                                        398.0
+                                        <label for="">已售 4197 件</label>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="item_img">
+                                    <img src="image/2ace8_560e.png" alt="">
+                                </div>
+                                <div class="item_price">
+                                    <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                                    <div>
+                                        <span>¥</span>
+                                        398.0
+                                        <label for="">已售 4197 件</label>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="item_img">
+                                    <img src="image/2ace8_560e.png" alt="">
+                                </div>
+                                <div class="item_price">
+                                    <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                                    <div>
+                                        <span>¥</span>
+                                        398.0
+                                        <label for="">已售 4197 件</label>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="item_img">
+                                    <img src="image/2ace8_560e.png" alt="">
+                                </div>
+                                <div class="item_price">
+                                    <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                                    <div>
+                                        <span>¥</span>
+                                        398.0
+                                        <label for="">已售 4197 件</label>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="item_img">
+                                    <img src="image/2ace8_560e.png" alt="">
+                                </div>
+                                <div class="item_price">
+                                    <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                                    <div>
+                                        <span>¥</span>
+                                        398.0
+                                        <label for="">已售 4197 件</label>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="item_img">
+                                    <img src="image/2ace8_560e.png" alt="">
+                                </div>
+                                <div class="item_price">
+                                    <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                                    <div>
+                                        <span>¥</span>
+                                        398.0
+                                        <label for="">已售 4197 件</label>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="item_img">
+                                    <img src="image/2ace8_560e.png" alt="">
+                                </div>
+                                <div class="item_price">
+                                    <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                                    <div>
+                                        <span>¥</span>
+                                        398.0
+                                        <label for="">已售 4197 件</label>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="item_img">
+                                    <img src="image/2ace8_560e.png" alt="">
+                                </div>
+                                <div class="item_price">
+                                    <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                                    <div>
+                                        <span>¥</span>
+                                        398.0
+                                        <label for="">已售 4197 件</label>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="item_img">
+                                    <img src="image/2ace8_560e.png" alt="">
+                                </div>
+                                <div class="item_price">
+                                    <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                                    <div>
+                                        <span>¥</span>
+                                        398.0
+                                        <label for="">已售 4197 件</label>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </a>
+                        </li>
+                        <li class="item item_12">
+                            <a href="">
+                                <div class="item_img">
+                                    <img src="image/2ace8_560e.png" alt="">
+                                </div>
+                                <div class="item_price">
+                                    <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                                    <div>
+                                        <span>¥</span>
+                                        398.0
+                                        <label for="">已售 4197 件</label>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="leftBox4 bg_color">
+                <div class="leftBox1_title">
+                    <p>鲜花用途</p>
+                </div>
+                <div class="leftBox1_item">
+                    <ul class="leftBox1_item_ul">
+                        <li><a href="#">爱情鲜花</a></li>
+                        <li><a href="#">生日鲜花</a></li>
+                        <li><a href="#">友情鲜花</a></li>
+                        <li><a href="#">周年纪念</a></li>
+                        <li><a href="#">婚庆鲜花</a></li>
+                        <li><a href="#">祝贺鲜花</a></li>
+                        <li><a href="#">探病慰问</a></li>
+                        <li><a href="#">问候长辈</a></li>
+                        <li><a href="#">商务鲜花</a></li>
+                        <li><a href="#">道歉鲜花</a></li>
+                    </ul>
+                </div>
+                <div class="h10"></div>
+                <div class="clear"></div>
+            </div>
+            <div class="box5_t"></div>
+            <div class="leftBox5 bg_color">
+                <div class="leftBox1_title">
+                    <p>鲜花销售额</p>
+                </div>
+                <div class="leftBox1_item">
+                    <ul class="leftBox1_item_ul">
+                        <li><a href="#">100元以内</a></li>
+                        <li><a href="#">100-199元</a></li>
+                        <li><a href="#">200-299元</a></li>
+                        <li><a href="#">300-399元</a></li>
+                        <li><a href="#">400-499元</a></li>
+                        <li><a href="#">500-599元</a></li>
+                        <li><a href="#">600-699元</a></li>
+                        <li><a href="#">700元以上</a></li>
+                    </ul>
+                </div>
+                <div class="h10"></div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="wr893">
+            <div class="right_top">
+                <div class="rt">
+                    <div class="rt_item rt_item1">
+                        <div class="rt_title">用途：</div>
+                        <div class="rt_ul" >
+                            <ul>
+                                <li><a href="">爱情鲜花</a></li>
+                                <li><a href="">生日鲜花</a></li>
+                                <li><a href="">友情鲜花</a></li>
+                                <li><a href="">婚庆鲜花</a></li>
+                                <li><a href="">祝贺鲜花</a></li>
+                                <li><a href="">探病慰问</a></li>
+                                <li><a href="">问候长辈</a></li>
+                                <li><a href="">商务鲜花</a></li>
+                                <li><a href="">道歉鲜花</a></li>
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="rt_item rt_item2">
+                        <div class="rt_title">售价：</div>
+                        <div class="rt_ul" >
+                            <ul>
+                                <li><a href="#">100元以内</a></li>
+                                <li><a href="">100-199元</a></li>
+                                <li><a href="#">200-299元</a></li>
+                                <li><a href="#">300-399元</a></li>
+                                <li><a href="#">400-499元</a></li>
+                                <li><a href="#">500-599元</a></li>
+                                <li><a href="#">600-699元</a></li>
+                                <li><a href="#">700元以上</a></li>
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="rt_item rt_item3">
+                        <div class="rt_title">花材：</div>
+                        <div class="rt_ul" >
+                            <ul>
+                                <li><a href="">玫瑰花</a></li>
+                                <li><a href="">康乃馨</a></li>
+                                <li><a href="">百合花</a></li>
+                                <li><a href="">向日葵</a></li>
+                                <li><a href="">紫罗兰</a></li>
+                                <li><a href="">满天星</a></li>
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="rt_item rt_item4">
+                        <div class="rt_title">枝数：</div>
+                        <div class="rt_ul" >
+                            <ul>
+                                <li><a href="">6枝</a></li>
+                                <li><a href="">8枝</a></li>
+                                <li><a href="">9枝</a></li>
+                                <li><a href="">11枝</a></li>
+                                <li><a href="">12枝</a></li>
+                                <li><a href="">13枝</a></li>
+                                <li><a href="">16枝</a></li>
+                                <li><a href="">19枝</a></li>
+                                <li><a href="">21枝</a></li>
+                                <li><a href="">29枝</a></li>
+                                <li><a href="">33枝</a></li>
+                                <li><a href="">66枝</a></li>
+                                <li><a href="">99枝以上</a></li>
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="click_close">
+                        <div class="rt_item rt_item5">
+                            <div class="rt_title">颜色：</div>
+                            <div class="rt_ul" >
+                                <ul>
+                                    <li><a href="">红色</a></li>
+                                    <li><a href="">粉色</a></li>
+                                    <li><a href="">香槟</a></li>
+                                    <li><a href="">白色</a></li>
+                                    <li><a href="">蓝色</a></li>
+                                    <li><a href="">紫色</a></li>
+                                    <li><a href="">黄色</a></li>
+                                </ul>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="rt_item rt_item6">
+                            <div class="rt_title">类别：</div>
+                            <div class="rt_ul" >
+                                <ul>
+                                    <li><a href="">日常花束</a></li>
+                                    <li><a href="">创意花盒</a></li>
+                                    <li><a href="">韩式花束</a></li>
+                                    <li><a href="">手提花篮</a></li>
+                                    <li><a href="">开业花篮</a></li>
+                                    <li><a href="">会议桌花</a></li>
+                                </ul>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="rt_item rt_item7">
+                            <div class="rt_title">适合对象：</div>
+                            <div class="rt_ul" >
+                                <ul>
+                                    <li><a href="">恋人</a></li>
+                                    <li><a href="">朋友</a></li>
+                                    <li><a href="">亲人</a></li>
+                                    <li><a href="">老师</a></li>
+                                    <li><a href="">长辈</a></li>
+                                    <li><a href="">客户</a></li>
+                                    <li><a href="">病人</a></li>
+                                    <li><a href="">花篮</a></li>
+                                    <li><a href="">桌花</a></li>
+                                </ul>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rt_turn">
+                    <a href="javascript:;">收起
+                        <!--<span>></span>-->
+                    </a>
+                </div>
+            </div>
+            <div class="right_nav">
+                <ul class="rn_ul">
+                    <li><a href="#">综合</a></li>
+                    <li><a href="#">销量</a></li>
+                    <li class="rn_price">
+                        <a href="#">
+                            价格
+                            <i class="icon icon_down"></i>
+                        </a>
+                        <dl class="rn_up">
+                            <dd><a href="">价格从高到低</a></dd>
+                            <dd><a href="">价格从低到高</a></dd>
+                        </dl>
+                    </li>
+                    <li><a href="javascript:;">人气</a></li>
+                </ul>
+                <div class="rn_page" id="page">
+                    <lable>1</lable>/11
+                    <a href="javascript:;"><</a>
+                    <a href="javascript:;">></a>
+                </div>
+            </div>
+            <div class="right_body">
+                <ul class="rb_ul">
+                    <li>
+                        <a href="#" class="p_item">
+                            <div class="corner"></div>
+                            <div class="p_img"><img src="image/2c7bf_5409.png" alt=""></div>
+                            <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                            <p class="p_price">
+                                <span class="pp_01">￥398</span>
+                                <span class="pp_02">8.0折</span>
+                                <lable class="pp_03">已售 4221 件</lable>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="p_item">
+                            <div class="corner"></div>
+                            <div class="p_img"><img src="image/2c7bf_5409.png" alt=""></div>
+                            <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                            <p class="p_price">
+                                <span class="pp_01">￥398</span>
+                                <span class="pp_02">8.0折</span>
+                                <lable class="pp_03">已售 4221 件</lable>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="p_item">
+                            <div class="corner"></div>
+                            <div class="p_img"><img src="image/2c7bf_5409.png" alt=""></div>
+                            <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                            <p class="p_price">
+                                <span class="pp_01">￥398</span>
+                                <span class="pp_02">8.0折</span>
+                                <lable class="pp_03">已售 4221 件</lable>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="p_item">
+                            <div class="corner"></div>
+                            <div class="p_img"><img src="image/2c7bf_5409.png" alt=""></div>
+                            <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                            <p class="p_price">
+                                <span class="pp_01">￥398</span>
+                                <span class="pp_02">8.0折</span>
+                                <lable class="pp_03">已售 4221 件</lable>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="p_item">
+                            <div class="corner"></div>
+                            <div class="p_img"><img src="image/2c7bf_5409.png" alt=""></div>
+                            <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                            <p class="p_price">
+                                <span class="pp_01">￥398</span>
+                                <span class="pp_02">8.0折</span>
+                                <lable class="pp_03">已售 4221 件</lable>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="p_item">
+                            <div class="corner"></div>
+                            <div class="p_img"><img src="image/2c7bf_5409.png" alt=""></div>
+                            <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                            <p class="p_price">
+                                <span class="pp_01">￥398</span>
+                                <span class="pp_02">8.0折</span>
+                                <lable class="pp_03">已售 4221 件</lable>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="p_item">
+                            <div class="corner"></div>
+                            <div class="p_img"><img src="image/2c7bf_5409.png" alt=""></div>
+                            <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                            <p class="p_price">
+                                <span class="pp_01">￥398</span>
+                                <span class="pp_02">8.0折</span>
+                                <lable class="pp_03">已售 4221 件</lable>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="p_item">
+                            <div class="corner"></div>
+                            <div class="p_img"><img src="image/2c7bf_5409.png" alt=""></div>
+                            <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                            <p class="p_price">
+                                <span class="pp_01">￥398</span>
+                                <span class="pp_02">8.0折</span>
+                                <lable class="pp_03">已售 4221 件</lable>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="p_item">
+                            <div class="corner"></div>
+                            <div class="p_img"><img src="image/2c7bf_5409.png" alt=""></div>
+                            <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                            <p class="p_price">
+                                <span class="pp_01">￥398</span>
+                                <span class="pp_02">8.0折</span>
+                                <lable class="pp_03">已售 4221 件</lable>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="p_item">
+                            <div class="corner"></div>
+                            <div class="p_img"><img src="image/2c7bf_5409.png" alt=""></div>
+                            <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                            <p class="p_price">
+                                <span class="pp_01">￥398</span>
+                                <span class="pp_02">8.0折</span>
+                                <lable class="pp_03">已售 4221 件</lable>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="p_item">
+                            <div class="corner"></div>
+                            <div class="p_img"><img src="image/2c7bf_5409.png" alt=""></div>
+                            <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                            <p class="p_price">
+                                <span class="pp_01">￥398</span>
+                                <span class="pp_02">8.0折</span>
+                                <lable class="pp_03">已售 4221 件</lable>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="p_item">
+                            <div class="corner"></div>
+                            <div class="p_img"><img src="image/2c7bf_5409.png" alt=""></div>
+                            <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                            <p class="p_price">
+                                <span class="pp_01">￥398</span>
+                                <span class="pp_02">8.0折</span>
+                                <lable class="pp_03">已售 4221 件</lable>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="p_item">
+                            <div class="corner"></div>
+                            <div class="p_img"><img src="image/2c7bf_5409.png" alt=""></div>
+                            <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                            <p class="p_price">
+                                <span class="pp_01">￥398</span>
+                                <span class="pp_02">8.0折</span>
+                                <lable class="pp_03">已售 4221 件</lable>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="p_item">
+                            <div class="corner"></div>
+                            <div class="p_img"><img src="image/2c7bf_5409.png" alt=""></div>
+                            <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                            <p class="p_price">
+                                <span class="pp_01">￥398</span>
+                                <span class="pp_02">8.0折</span>
+                                <lable class="pp_03">已售 4221 件</lable>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="p_item">
+                            <div class="corner"></div>
+                            <div class="p_img"><img src="image/2c7bf_5409.png" alt=""></div>
+                            <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                            <p class="p_price">
+                                <span class="pp_01">￥398</span>
+                                <span class="pp_02">8.0折</span>
+                                <lable class="pp_03">已售 4221 件</lable>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="p_item">
+                            <div class="corner"></div>
+                            <div class="p_img"><img src="image/2c7bf_5409.png" alt=""></div>
+                            <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                            <p class="p_price">
+                                <span class="pp_01">￥398</span>
+                                <span class="pp_02">8.0折</span>
+                                <lable class="pp_03">已售 4221 件</lable>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="p_item">
+                            <div class="corner"></div>
+                            <div class="p_img"><img src="image/2c7bf_5409.png" alt=""></div>
+                            <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                            <p class="p_price">
+                                <span class="pp_01">￥398</span>
+                                <span class="pp_02">8.0折</span>
+                                <lable class="pp_03">已售 4221 件</lable>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="p_item">
+                            <div class="corner"></div>
+                            <div class="p_img"><img src="image/2c7bf_5409.png" alt=""></div>
+                            <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                            <p class="p_price">
+                                <span class="pp_01">￥398</span>
+                                <span class="pp_02">8.0折</span>
+                                <lable class="pp_03">已售 4221 件</lable>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="p_item">
+                            <div class="corner"></div>
+                            <div class="p_img"><img src="image/2c7bf_5409.png" alt=""></div>
+                            <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                            <p class="p_price">
+                                <span class="pp_01">￥398</span>
+                                <span class="pp_02">8.0折</span>
+                                <lable class="pp_03">已售 4221 件</lable>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="p_item">
+                            <div class="corner"></div>
+                            <div class="p_img"><img src="image/2c7bf_5409.png" alt=""></div>
+                            <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                            <p class="p_price">
+                                <span class="pp_01">￥398</span>
+                                <span class="pp_02">8.0折</span>
+                                <lable class="pp_03">已售 4221 件</lable>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="p_item">
+                            <div class="corner"></div>
+                            <div class="p_img"><img src="image/2c7bf_5409.png" alt=""></div>
+                            <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                            <p class="p_price">
+                                <span class="pp_01">￥398</span>
+                                <span class="pp_02">8.0折</span>
+                                <lable class="pp_03">已售 4221 件</lable>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="p_item">
+                            <div class="corner"></div>
+                            <div class="p_img"><img src="image/2c7bf_5409.png" alt=""></div>
+                            <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                            <p class="p_price">
+                                <span class="pp_01">￥398</span>
+                                <span class="pp_02">8.0折</span>
+                                <lable class="pp_03">已售 4221 件</lable>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="p_item">
+                            <div class="corner"></div>
+                            <div class="p_img"><img src="image/2c7bf_5409.png" alt=""></div>
+                            <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                            <p class="p_price">
+                                <span class="pp_01">￥398</span>
+                                <span class="pp_02">8.0折</span>
+                                <lable class="pp_03">已售 4221 件</lable>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="p_item">
+                            <div class="corner"></div>
+                            <div class="p_img"><img src="image/2c7bf_5409.png" alt=""></div>
+                            <h5>Cherish珍爱鲜花系列99枝红玫瑰</h5>
+                            <p class="p_price">
+                                <span class="pp_01">￥398</span>
+                                <span class="pp_02">8.0折</span>
+                                <lable class="pp_03">已售 4221 件</lable>
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="h50"></div>
+</body>
+<!--bottom-->
+<footer>
+    <div id="foot">
+        <div class="foot_top">
+            <ul>
+                <li>
+                    <i class="icon ft_01"></i>
+                    <a href="">销量领先</a>
+                </li>
+                <li>
+                    <i class="icon ft_02"></i>
+                    <a href="">百万客户信赖</a>
+                </li>
+                <li>
+                    <i class="icon ft_03"></i>
+                    <a href="">时尚原创花艺</a>
+                </li>
+                <li>
+                    <i class="icon ft_04"></i>
+                    <a href="">订单实拍</a>
+                </li>
+                <li>
+                    <i class="icon ft_05"></i>
+                    <a href="">低价保障</a>
+                </li>
+                <li>
+                    <i class="icon ft_06"></i>
+                    <a href="">3小时配送</a>
+                </li>
+                <li>
+                    <i class="icon ft_07"></i>
+                    <a href="">200%退赔承诺</a>
+                </li>
+            </ul>
+        </div>
+        <div class="foot_body">
+            <div class="ft_h60"></div>
+            <div class="fb_01">
+                <h5>客户服务</h5>
+                <dl>
+                    <dt>售后服务</dt>
+                    <dd><a href="">配送说明</a></dd>
+                    <dd><a href="">配送范围</a></dd>
+                    <dd><a href="">订单查询</a></dd>
+                    <dd><a href="">取消订单</a></dd>
+                    <dd><a href="">补交货款</a></dd>
+                </dl>
+                <dl>
+                    <dt>服务条款</dt>
+                    <dd><a href="">关于我们</a></dd>
+                    <dd><a href="">隐私条款</a></dd>
+                    <dd><a href="">安全条款</a></dd>
+                    <dd><a href="">支付说明</a></dd>
+                </dl>
+                <dl class="fb_w150">
+                    <dt>热门资讯</dt>
+                    <dd><a href="">Flower网购流程</a></dd>
+                    <dd><a href="">能配送哪些城市</a></dd>
+                    <dd><a href="">售后服务是怎么样的</a></dd>
+                    <dd><a href="">提前多久预定鲜花</a></dd>
+                </dl>
+            </div>
+            <div class="fb_02">
+                <h5>同城鲜花</h5>
+                <ul>
+                    <li><a href="">北京市鲜花</a></li>
+                    <li><a href="">天津市鲜花</a></li>
+                    <li><a href="">河北市鲜花</a></li>
+                    <li><a href="">山西市鲜花</a></li>
+                    <li><a href="">内蒙省鲜花</a></li>
+                    <li><a href="">吉林省鲜花</a></li>
+                    <li><a href="">黑龙江鲜花</a></li>
+                    <li><a href="">上海市鲜花</a></li>
+                    <li><a href="">江苏省鲜花</a></li>
+                    <li><a href="">浙江省鲜花</a></li>
+                    <li><a href="">安徽省鲜花</a></li>
+                    <li><a href="">福建省鲜花</a></li>
+                    <li><a href="">江西省鲜花</a></li>
+                    <li><a href="">山东省鲜花</a></li>
+                    <li><a href="">河南省鲜花</a></li>
+                    <li><a href="">湖北省鲜花</a></li>
+                    <li><a href="">广东省鲜花</a></li>
+                    <li><a href="">更多城市</a></li>
+                </ul>
+            </div>
+            <div class="fb_03">
+                <h5>联系我们</h5>
+                <p  class="fb_phone">
+                    全国订购电话:
+                    <span>400-888-7502</span>
+                </p>
+                <div class="cservice">
+                    <a href=""><img src="image/cservice.png" alt=""></a>
+                </div>
+                <p class="service_time">客服工作时间：8:30-21:00</p>
+                <p class="service_time">售后服务电话：13378216662</p>
+            </div>
+            <div class="fb_04">
+                <p class="note">回复“礼物”有惊喜！</p>
+                <p class="qr_code"><img src="image/qrcode.png" alt=""></p>
+                <p class="fb04_a">公众号</p>
+            </div>
+        </div>
+        <div class="foot_bottom">
+            <p>Flower&Love&nbsp;公司荣誉出品&nbsp;&nbsp;陌上花开，可缓缓归矣&nbsp;&nbsp;  蜀ICP备18023296号-1</p>
+            <ul>
+                <li class="img01"><a href=""></a></li>
+                <li class="img02"><a href=""></a></li>
+                <li class="img03"><a href=""></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var page=document.getElementById("page")
+    var as=page.getElementsByTagName("a")
+    for(var a of as){
+        a.onclick=function(){
+            var a=this;
+            lable=a.parentNode.children[0];
+            var n=parseInt(lable.innerHTML);
+            //console.log(n);
+            if (a.textContent==">"){
+                n+=1;
+               // console.log(a.innerHTML);
+            }else if(n>1){
+                n--;
+            }
+            lable.innerHTML=n;
+        }
+    }
+
+
+    var userClick=document.querySelector("div.rt_turn>a");
+    console.log(userClick)
+    userClick.onclick=function(){
+        var d2=this;
+        var d1=document.querySelector("div.click_close");
+        console.log(d2.textContent)
+        //d1.style.display="none";
+        if(d2.textContent=="收起"){
+            d1.style.display="none";
+            d2.innerHTML="展开";
+        }else{
+            d1.style.display="block";
+            d2.innerHTML="收起";
+        }
+    }
+</script>
+</body>
+</html>
